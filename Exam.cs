@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
+    #region Exam
     public abstract class Exam
     {
         public TimeSpan Time { get; set; }
@@ -58,4 +59,5 @@ namespace EXAM
         public override string ToString() =>
             $"{GetType().Name} - Time: {Time}, Questions: {NumberOfQuestions}";
     }
+    #endregion
 }

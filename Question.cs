@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
+    #region Question
     public abstract class Question : ICloneable, IComparable<Question>
     {
         public string Header { get; set; }
@@ -56,4 +57,5 @@ namespace EXAM
             $"[{TypeLabel}] {Header} ({Mark} mark(s))\n{Body}\n" +
             string.Join("\n", AnswerList.Select(a => a.ToString()));
     }
+    #endregion
 }

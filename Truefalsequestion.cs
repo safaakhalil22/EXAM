@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
+    #region TrueFalseQuestion
     public class TrueFalseQuestion : Question
     {
         public override string TypeLabel => "True/False";
@@ -17,4 +18,5 @@ namespace EXAM
         {
         }
     }
+    #endregion
 }

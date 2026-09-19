@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
+    #region FinalExam
     public class FinalExam : Exam
     {
         public FinalExam(TimeSpan time, List<Question> questions) : base(time, questions)
@@ -18,4 +19,5 @@ namespace EXAM
             ShowResults("Final Exam Results:");
         }
     }
+    #endregion
 }

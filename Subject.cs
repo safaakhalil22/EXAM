@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
+    #region Subject
     public class Subject
     {
         public int SubjectId { get; set; }
@@ -27,4 +28,5 @@ namespace EXAM
 
         public override string ToString() => $"Subject #{SubjectId}: {SubjectName}";
     }
+    #endregion
 }

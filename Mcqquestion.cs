@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
+    #region MCQQuestion
     public class MCQQuestion : Question
     {
         public override string TypeLabel => "MCQ";
@@ -15,4 +16,5 @@ namespace EXAM
         {
         }
     }
+    #endregion
 }
