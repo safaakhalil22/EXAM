@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
-    public class PracticalExam : Exam
-    {
-        public PracticalExam(TimeSpan time, List<Question> questions) : base(time, questions)
-        {
-        }
+    #region PracticalExam
+    //public class PracticalExam : Exam
+    //{
+    //    public PracticalExam(TimeSpan time, List<Question> questions) : base(time, questions)
+    //    {
+    //    }
 
-        public override void ShowExam()
-        {
-            PresentAllQuestions("Practical Exam");
-            ShowResults("Practical Exam Results:");
-        }
-    }
+    //    public override void ShowExam()
+    //    {
+    //        PresentAllQuestions("Practical Exam");
+    //        ShowResults("Practical Exam Results:");
+    //    }
+    //}
+    #endregion
 }

@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace EXAM
 {
-    public enum ExamType
-    {
-        Final,
-        Practical
-    }
+    #region ExamType
+    //public enum ExamType
+    //{
+    //    Final,
+    //    Practical
+    //}
+    #endregion
 }
